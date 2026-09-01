@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>賃管士 条文で解く</title>
+    <meta
+      name="description"
+      content="賃貸不動産経営管理士の試験に向けて、根拠条文と施行日つきの解説で解く問題集。間違えた問題は間隔をあけて出し直す。"
+    />
+
+    <!--
+      🚨 ホーム画面に追加したときにアイコンとアプリ名が出るための宣言。
+        ⛔ 消すと「白い四角」に戻る（実測: 宣言が無く /favicon.ico も /manifest.webmanifest も 404 だった）。
+      🚨 パスは `/` 始まりで書く。vite がベースパス（VITE_BASE_PATH）を被せて書き換えるので、
+        配信先が変わっても正しい URL になる。⛔ `./` で書かない
+        —— SPA なので `/practice` のような深い URL から開かれると、そこからの相対になって外れる。
+      🚨 アプリ名（`短い名前`・アイコン・起動時の見え方）の正本は public/manifest.webmanifest だ。
+        ⛔ ここに二重に書かない。ただし iOS は例外で、下の apple- 系を見る。
+    -->
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#12513f" />
+
+    <!--
+      🚨 iOS のホーム画面は manifest ではなくこの2行を見る（⛔ Android だけで確かめて済ませない）。
+        `apple-touch-icon` … ホーム画面のアイコン
+        `apple-mobile-web-app-title` … ホーム画面に出る名前（manifest の short_name は読まれない）
+      ⛔ `mobile-web-app-capable` と `apple-mobile-web-app-capable` は両方要る。
+        前者が標準、後者は iOS 17 以前がまだこちらしか見ない。
+    -->
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="賃管士 条文で解く" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <script type="module" crossorigin src="/assets/index-BN2r4FFH.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BZWz8W68.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

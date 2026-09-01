@@ -1,0 +1,16 @@
+{
+  "name": "賃管士 条文で解く",
+  "short_name": "賃管士 条文で解く",
+  "description": "賃貸不動産経営管理士の試験に向けて、根拠条文と施行日つきの解説で解く問題集。間違えた問題は間隔をあけて出し直す。",
+  "lang": "ja",
+  "start_url": "practice",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#e9edf2",
+  "theme_color": "#12513f",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
